@@ -1,0 +1,306 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 10px 0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header nav .logo img {
+  height: 50px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.landing {
+  background-color: #33862c;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+.landing h1 {
+  font-size: 36px;
+}
+.landing p {
+  font-size: 20px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+section h2 {
+  font-size: 28px;
+  color: #333;
+}
+section p {
+  font-size: 18px;
+  color: #555;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+.service h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin-bottom: 5px;
+}
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 10px;
+  background-color: #3b7a57;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #2d5e40;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing h1 {
+    font-size: 28px;
+  }
+  section {
+    padding: 15px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header nav .logo img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-intro h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-intro p {
+  font-size: 18px;
+  color: #555;
+}
+
+.founders {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.founder {
+  text-align: center;
+}
+
+.founder img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.founder h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.founder p {
+  font-size: 16px;
+  color: #555;
+}
+
+.mission-values {
+  margin-bottom: 50px;
+}
+
+.mission-values h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.mission-values p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.mission-values ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mission-values ul li {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.product-quality {
+  margin-bottom: 50px;
+}
+
+.product-quality h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.product-quality p {
+  font-size: 18px;
+  color: #555;
+}
+
+.cta {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cta h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #3b7a57;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.cta-btn:hover {
+  background-color: #2d5e40;
+}
+
+footer {
+  background-color: #2d2d2d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/green-grass-background_1372-497.jpg?t=st=1736424294~exp=1736427894~hmac=915633e3a2e2b53e454d2bb82e89673ffb076226aee9f26f0aaaea8675777fc2&w=1380);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1, h2, h3, a {
+  font-family: "ALK Rex Bold", sans-serif;
+}
